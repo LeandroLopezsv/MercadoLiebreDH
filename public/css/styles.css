@@ -39,7 +39,7 @@ header .form{
 }
 
 header div.logo{
-    padding: 10px;
+    padding: 1px;
 }
 header .form{
     display: flex;
@@ -53,10 +53,9 @@ header nav{
 
 }
 
-
 header ul li{
     list-style-type: none;
-    margin-left: 5%;
+    margin-left: -3%;
 }
 
 header ul li a{
@@ -207,6 +206,15 @@ article div.main-article{
 main section article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
+
+.input-register{
+    width: 85%;
+}
+
+.avatar{
+    width: 65%;
+}
+
 
 /*----------------------------------------FOOTER--------------------------------*/
 
@@ -374,8 +382,14 @@ header nav {
 
 @media (min-width: 769px){
     
-    
-    
+    header div.logo{
+        width: 70%;   
+    }
+
+    .form{
+        font-size: 22px;   
+    }
+
     main section div.products article{
         width: 22%;
     }
@@ -383,9 +397,19 @@ header nav {
 
 
 
+@media (min-width: 1024px){
+    header nav{
+        font-size: 22px;
+    }
 
+    header p{
+        font-size: 22px;
+    }
 
-
+    .form{
+        font-size: 28px;
+        text-align: end;   
+    }
 
 
 
